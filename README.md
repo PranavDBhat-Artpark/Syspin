@@ -1,10 +1,8 @@
 # SYSPIN
----
 
 This README provides a comprehensive guide to installing and deploying the suite of Syspin models. It includes step-by-step instructions for setting up the environment, downloading the necessary files, and running each model, ensuring a smooth and consistent deployment process.  
 
 ## Models
----
 
 | Sl.no | Language | Speaker | Model | Model link |
 | ----- | ------------- | -------------------- | ----- | ------------------------------------------------------- |
@@ -51,7 +49,6 @@ pip install --no-cache-dir -r requirements.txt
 ```
 
 ## Deployment
----
 
 For details on how to download the models, please refer the following [documentation](https://github.com/PranavDBhat-Artpark/Syspin/tree/main/recipes/Downloading_models)
 
