@@ -7,10 +7,12 @@ This project demonstrates how to use the `TTS` library from [coqui-ai/TTS](https
 Make sure you have installed the [TTS](https://pypi.org/project/coqui-tts/) package:
 
 ```bash
-pip install -r requirements.txt
+pip install --no-cache-dir -r requirements.txt
 ```
 
 ## Usage
+
+Create a python file with the following content and file in the appropriate fields.
 
 ```python
 from TTS.api import TTS
