@@ -36,13 +36,17 @@ model.tts_to_file(text="<Input Text>", file_path="Output.wav")
 Replace placeholders with actual values:
 
 ```python
+from TTS.api import TTS
+
+modelpath = "tts_model/" + "vits_Hindi_Male"
+
 model = TTS(
-    model_path="models/tts_model.pth",
-    config_path="models/config.json",
+    model_path = modelpath + "/best_model.pth",
+    config_path = modelpath + "/config.json",
     gpu=False
 )
 
-model.tts_to_file(text="Hello, this is a test!", file_path="hello.wav")
+model.tts_to_file(text="नमस्कार, यह एक परीक्षा है। आपका दिन शुभ हो।", file_path="output.wav")
 ```
 
 ## Notes
